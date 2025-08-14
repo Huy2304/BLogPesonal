@@ -2,21 +2,32 @@
 import express from "express";
 
 import {
-  getAllBlogPosts,
-  addBlogPost,
+  getAllPosts,
+  addPost,
   getSinglePost,
-  updateSingleBlogPost,
-  removeSingleBlogPost,
-  likeBlogPost,
-} from "../controllers/blogPosts.controller.js";
+  updateSinglePost,
+  removeSinglePost,
+  likePost,
+} from "../controllers/Posts.controller.js";
 
 const router = express.Router();
 
-router.get("/", getAllBlogPosts);
-router.post("/", addBlogPost);
+// Lấy tất cả bài viết
+router.get("/", getAllPosts);
+
+// Thêm bài viết mới
+router.post("/", addPost);
+
+// Lấy thông tin bài viết theo ID
 router.get("/:id", getSinglePost);
-router.patch("/:id", updateSingleBlogPost);
-router.delete("/:id", removeSingleBlogPost);
-router.patch("/:id/likedBlogPost", likeBlogPost);
+
+// Cập nhật bài viết theo ID
+router.patch("/:id", updateSinglePost);
+
+// Xóa bài viết theo ID
+router.delete("/:id", removeSinglePost);
+
+// Thích bài viết theo ID
+router.patch("/:id/like", likePost);
 
 export default router;
