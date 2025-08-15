@@ -3,7 +3,6 @@ import Category from './category.js';
 import Post from './Post.js';
 import PostImg from './PostImg.js';
 import Follow from './Follow.js';
-import PostLike from './PostLike.js';
 import Favorite from './favorite.js';
 import Share from './Share.js';
 import Comment from './Comment.js';
@@ -18,7 +17,6 @@ export {
   Post,
   PostImg,
   Follow,
-  PostLike,
   Favorite,
   Share,
   Comment,

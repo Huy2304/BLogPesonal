@@ -5,6 +5,7 @@ const postSchema = new mongoose.Schema({
     title: { type: String, required: true, maxlength: 255 },
     post: { type: String, required: true },
     category_id: { type: mongoose.Schema.Types.ObjectId, ref: "Category" },
+    tags: [{ type: mongoose.Schema.Types.ObjectId, ref: "Tag" }],
     img_path: { type: String },
     status: { type: Boolean, default: false }, // false = for review, true = published
     likes_count: { type: Number, default: 0 },
