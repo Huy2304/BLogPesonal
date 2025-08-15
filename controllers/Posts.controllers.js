@@ -1,4 +1,4 @@
-//controllers/Posts.controller.js
+//controllers/Posts.controllers.js
 import express from "express";
 import mongoose from "mongoose";
 

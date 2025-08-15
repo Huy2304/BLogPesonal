@@ -4,6 +4,7 @@ import cors from "cors";
 import blogPosts from "./routes/blogPosts.routes.js";
 import authRoutes from "./routes/auth.routes.js"
 import Category from "./routes/category.routes.js"
+import Comment from "./routes/comment.routes.js"
 import connectDB from "./config/db.js";
 
 dotenv.config();
@@ -17,6 +18,7 @@ app.use(cors());
 app.use("/api/blogs", blogPosts);
 app.use("/api/auth", authRoutes);
 app.use("/api/category", Category);
+app.use("api/comment", Comment);
 
 // Connect DB & Start server
 connectDB();
