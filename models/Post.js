@@ -8,8 +8,10 @@ const postSchema = new mongoose.Schema({
     tags: [{ type: mongoose.Schema.Types.ObjectId, ref: "Tag" }],
     img_path: { type: String },
     status: { type: Boolean, default: false }, // false = for review, true = published
-    likes_count: { type: Number, default: 0 },
-    favorites_count: { type: Number, default: 0 },
+    interactions: [{
+        type: { type: String, enum: ['like', 'favorite'], required: true },
+        count: { type: Number, default: 0 }
+    }],
     shares_count: { type: Number, default: 0 },
     comments_count: { type: Number, default: 0 },
     date_updated: { type: Date },

@@ -7,6 +7,7 @@ import Category from "./routes/category.routes.js"
 import Comment from "./routes/comment.routes.js"
 import Share from "./routes/share.routes.js";
 import Notification from "./routes/notification.routes.js"
+import Interaction from "./routes/interaction.routers.js"
 import connectDB from "./config/db.js";
 
 dotenv.config();
@@ -23,6 +24,7 @@ app.use("/api/category", Category);
 app.use("api/comment", Comment);
 app.use("api/share", Share);
 app.use("api/notification", Notification);
+app.use("api/interaction", Interaction);
 
 // Connect DB & Start server
 connectDB();

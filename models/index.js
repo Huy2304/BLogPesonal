@@ -3,7 +3,7 @@ import Category from './category.js';
 import Post from './Post.js';
 import PostImg from './PostImg.js';
 import Follow from './Follow.js';
-import Favorite from './favorite.js';
+import Favorite from './Interaction.js';
 import Share from './Share.js';
 import Comment from './Comment.js';
 import PostHistory from './PostHistory.js';
