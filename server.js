@@ -5,7 +5,8 @@ import blogPosts from "./routes/blogPosts.routes.js";
 import authRoutes from "./routes/auth.routes.js"
 import Category from "./routes/category.routes.js"
 import Comment from "./routes/comment.routes.js"
-import Share from "./models/Share.js";
+import Share from "./routes/share.routes.js";
+import Notification from "./routes/notification.routes.js"
 import connectDB from "./config/db.js";
 
 dotenv.config();
@@ -21,6 +22,7 @@ app.use("/api/auth", authRoutes);
 app.use("/api/category", Category);
 app.use("api/comment", Comment);
 app.use("api/share", Share);
+app.use("api/notification", Notification);
 
 // Connect DB & Start server
 connectDB();
