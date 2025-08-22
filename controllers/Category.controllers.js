@@ -74,7 +74,7 @@ export const deleteCategory = async (req, res) => {
         return res.status(404).send('Not a valid id for this category');
     try{
         const data = await Category.findByIdAndDelete(id);
-        res.status(200).json({data});
+        res.status(200).send("Đã xóa thành công");
     }catch(err){
         res.status(500).json({error: err});
     }

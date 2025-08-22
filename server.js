@@ -21,10 +21,10 @@ app.use(cors());
 app.use("/api/blogs", blogPosts);
 app.use("/api/auth", authRoutes);
 app.use("/api/category", Category);
-app.use("api/comment", Comment);
-app.use("api/share", Share);
-app.use("api/notification", Notification);
-app.use("api/interaction", Interaction);
+app.use("/api/comment", Comment);
+app.use("/api/share", Share);
+app.use("/api/notification", Notification);
+app.use("/api/interaction", Interaction);
 
 // Connect DB & Start server
 connectDB();

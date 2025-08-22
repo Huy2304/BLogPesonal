@@ -1,6 +1,5 @@
 import Interaction from "../models/Interaction.js";
 import Post from "../models/Post.js";
-import mongoose from "mongoose";
 
 import express from "express";
 const router = express.Router();
@@ -52,4 +51,5 @@ export const toggleInteraction = async (req, res) => {
         res.status(500).send({ message: "Có lỗi xảy ra." });
     }
 };
+
 export default router;

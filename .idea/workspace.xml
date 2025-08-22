@@ -6,8 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="72a27f8b-bc09-4d52-90ce-c073df21854d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/Favorite.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/Favorite.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/Post.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/Post.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/Category.controllers.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/Category.controllers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/Comment.controllers.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/Comment.controllers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/Interaction.controllers.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/Interaction.controllers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/comment.routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/comment.routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/interaction.routers.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/interaction.routers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,26 +36,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Node.js.Category.controllers.js.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.Unnamed.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.blogPosts.routes.js.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.server.js.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;Huy&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2025.1.1\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Node.js.Category.controllers.js.executor": "Run",
+    "Node.js.Comment.controllers.js.executor": "Run",
+    "Node.js.Unnamed.executor": "Run",
+    "Node.js.blogPosts.routes.js.executor": "Run",
+    "Node.js.server.js.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "Huy",
+    "junie.onboarding.icon.badge.shown": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2025.1.1\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
+  <component name="RunManager">
+    <configuration name="server.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="server.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -71,7 +81,9 @@
       <workItem from="1755218820999" duration="1302000" />
       <workItem from="1755271188800" duration="2206000" />
       <workItem from="1755283125536" duration="4151000" />
-      <workItem from="1755554501521" duration="1758000" />
+      <workItem from="1755554501521" duration="2613000" />
+      <workItem from="1755745121629" duration="893000" />
+      <workItem from="1755830737435" duration="4234000" />
     </task>
     <servers />
   </component>
