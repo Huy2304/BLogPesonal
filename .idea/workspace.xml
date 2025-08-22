@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="72a27f8b-bc09-4d52-90ce-c073df21854d" name="Changes" comment="" />
+    <list default="true" id="72a27f8b-bc09-4d52-90ce-c073df21854d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/middleware/validateBody.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/Share.controllers.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/Share.controllers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/share.routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/share.routes.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -75,7 +80,7 @@
       <workItem from="1755283125536" duration="4151000" />
       <workItem from="1755554501521" duration="2613000" />
       <workItem from="1755745121629" duration="893000" />
-      <workItem from="1755830737435" duration="4889000" />
+      <workItem from="1755830737435" duration="7099000" />
     </task>
     <servers />
   </component>
@@ -92,5 +97,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/controllers/Share.controllers.js</url>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
