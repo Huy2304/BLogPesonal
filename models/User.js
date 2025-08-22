@@ -21,6 +21,8 @@ const userSchema = new mongoose.Schema({
     }
   },
   password: { type: String, required: true, maxlength: 255 },
+  follow:{type: Number,default:0},
+  follower:{type: Number,default:0},
   status: { type: Boolean, default: true }, // true = online, false = offline
   created_at: { type: Date, default: Date.now }
 });

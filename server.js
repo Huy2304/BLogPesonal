@@ -8,6 +8,8 @@ import Comment from "./routes/comment.routes.js"
 import Share from "./routes/share.routes.js";
 import Notification from "./routes/notification.routes.js"
 import Interaction from "./routes/interaction.routers.js"
+import Follow from "./routes/follow.routes.js"
+import Profile from "./routes/profile.routes.js"
 import connectDB from "./config/db.js";
 
 dotenv.config();
@@ -25,6 +27,8 @@ app.use("/api/comment", Comment);
 app.use("/api/share", Share);
 app.use("/api/notification", Notification);
 app.use("/api/interaction", Interaction);
+app.use("/api/follow", Follow);
+app.use("/api/profile", Profile);
 
 // Connect DB & Start server
 connectDB();
