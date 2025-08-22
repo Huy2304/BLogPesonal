@@ -5,7 +5,6 @@ import jwt from "jsonwebtoken";
 export const register = async (req, res) => {
   const { email, password } = req.body;
 
-  // Kiểm tra xem email và password có tồn tại không
   if (!email || !password) {
     return res.status(400).json({ message: "Email và mật khẩu là bắt buộc" });
   }
@@ -29,7 +28,6 @@ export const register = async (req, res) => {
   }
 };
 
-// Đăng nhập người dùng
 export const login = async (req, res) => {
   const { email, password } = req.body;
 
@@ -40,23 +38,26 @@ export const login = async (req, res) => {
       return res.status(400).json({ message: "Tài khoản không tồn tại!" });
     }
 
-    // Kiểm tra mật khẩu người dùng nhập vào với mật khẩu đã lưu (so sánh trực tiếp)
-    if (password !== user.password) { // So sánh mật khẩu thô
+    // So sánh mật khẩu thô (không mã hóa)
+    if (password !== user.password) {  // So sánh mật khẩu thô
       return res.status(400).json({ message: "Mật khẩu không đúng!" });
     }
 
+    // Kiểm tra role (user hoặc admin)
+    const role = user.role; // Lấy role từ cơ sở dữ liệu
+
     // Tạo JWT token sau khi xác thực thành công
     const token = jwt.sign(
-      { email: user.email, id: user._id },
-      process.env.JWT_SECRET, 
-      { expiresIn: "1h" } // Token hết hạn sau 1 giờ
+        { email: user.email, id: user._id, role: role }, // Thêm role vào trong payload của token
+        process.env.JWT_SECRET,
+        { expiresIn: "1h" } // Token hết hạn sau 1 giờ
     );
 
-    // Trả về kết quả và token
-    res.status(200).json({ 
+    // Trả về kết quả, thông tin người dùng và token
+    res.status(200).json({
       message: "Đăng nhập thành công!",
-      result: user, 
-      token 
+      result: { email: user.email, role: user.role },  // Trả về thông tin người dùng và role
+      token
     });
 
   } catch (error) {
@@ -65,3 +66,4 @@ export const login = async (req, res) => {
     res.status(500).json({ message: "Đã có lỗi xảy ra!" });
   }
 };
+

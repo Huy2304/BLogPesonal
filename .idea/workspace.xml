@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="72a27f8b-bc09-4d52-90ce-c073df21854d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/Category.controllers.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/Category.controllers.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/Comment.controllers.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/Comment.controllers.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/Interaction.controllers.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/Interaction.controllers.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/comment.routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/comment.routes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/interaction.routers.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/interaction.routers.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/auth.controllers.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/auth.controllers.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +77,7 @@
       <workItem from="1755283125536" duration="4151000" />
       <workItem from="1755554501521" duration="2613000" />
       <workItem from="1755745121629" duration="893000" />
-      <workItem from="1755830737435" duration="4234000" />
+      <workItem from="1755830737435" duration="4584000" />
     </task>
     <servers />
   </component>
