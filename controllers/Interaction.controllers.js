@@ -1,9 +1,8 @@
 import Interaction from "../models/Interaction.js";
 import Post from "../models/Post.js";
-
 import express from "express";
 const router = express.Router();
-// Thêm hoặc xóa like/favorite
+
 export const toggleInteraction = async (req, res) => {
     const { postId, userId, type } = req.body; // `type` có thể là "like" hoặc "favorite"
 

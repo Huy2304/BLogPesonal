@@ -8,15 +8,12 @@ const postSchema = new mongoose.Schema({
     tags: [{ type: mongoose.Schema.Types.ObjectId, ref: "Tag" }],
     img_path: { type: String },
     status: { type: Boolean, default: false }, // false = for review, true = published
-    interactions: [{
-        type: { type: String, enum: ['like', 'favorite'], required: true },
-        count: { type: Number, default: 0 }
-    }],
+    likes_count: { type: Number, default: 0 }, // Tổng số lượt like
+    favorites_count: { type: Number, default: 0 }, // Tổng số lượt favorite
     shares_count: { type: Number, default: 0 },
     comments_count: { type: Number, default: 0 },
     date_updated: { type: Date },
     date_published: { type: Date }
-  });
-  
-  export default mongoose.model("Post", postSchema);
-  
+});
+
+export default mongoose.model("Post", postSchema);
