@@ -5,36 +5,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="72a27f8b-bc09-4d52-90ce-c073df21854d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/backend/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pnpm-workspace.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/db.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/config/db.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/Category.controllers.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/controllers/Category.controllers.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/Comment.controllers.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/controllers/Comment.controllers.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/Follow.controllers.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/controllers/Follow.controllers.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/Interaction.controllers.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/controllers/Interaction.controllers.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/Notification.controllers.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/controllers/Notification.controllers.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/Posts.controllers.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/controllers/Posts.controllers.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/Profile.controllers.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/controllers/Profile.controllers.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/Share.controllers.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/controllers/Share.controllers.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/auth.controllers.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/controllers/auth.controllers.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/middleware/authMiddleware.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/middleware/authMiddleware.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/middleware/validateBody.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/middleware/validateBody.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/Category.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/models/Category.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/Comment.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/models/Comment.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/Follow.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/models/Follow.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/Interaction.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/models/Interaction.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/Notification.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/models/Notification.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/Post.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/models/Post.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/PostHistory.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/models/PostHistory.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/PostImg.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/models/PostImg.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/PostTag.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/models/PostTag.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/Share.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/models/Share.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/Tag.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/models/Tag.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/User.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/models/User.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/models/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/db.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/Category.controllers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/Comment.controllers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/Follow.controllers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/Interaction.controllers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/Notification.controllers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/Posts.controllers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/Profile.controllers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/Share.controllers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/auth.controllers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/middleware/authMiddleware.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/middleware/validateBody.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/Category.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/Comment.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/Follow.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/Interaction.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/Notification.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/Post.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/PostHistory.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/PostImg.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/PostTag.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/Share.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/Tag.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/User.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/index.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.bin/bcrypt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.bin/bcrypt.cmd" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.bin/bcrypt.ps1" beforeDir="false" />
@@ -2010,25 +2008,25 @@
       <change beforePath="$PROJECT_DIR$/node_modules/wrappy/wrappy.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/auth.routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/routes/auth.routes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/blogPosts.routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/routes/blogPosts.routes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/category.routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/routes/category.routes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/comment.routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/routes/comment.routes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/follow.routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/routes/follow.routes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/interaction.routers.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/routes/interaction.routers.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/notification.routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/routes/notification.routes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/profile.routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/routes/profile.routes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/share.routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/routes/share.routes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/auth.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/services/auth.service.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/category.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/services/category.service.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/comment.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/services/comment.service.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/follow.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/services/follow.service.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/interaction.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/services/interaction.service.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/notification.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/services/notification.service.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/posts.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/services/posts.service.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/profile.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/services/profile.service.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/share.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/services/share.service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/auth.routes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/blogPosts.routes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/category.routes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/comment.routes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/follow.routes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/interaction.routers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/notification.routes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/profile.routes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/share.routes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/auth.service.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/category.service.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/comment.service.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/follow.service.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/interaction.service.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/notification.service.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/posts.service.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/profile.service.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/share.service.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -2116,7 +2114,7 @@
       <workItem from="1755830737435" duration="7099000" />
       <workItem from="1756029569214" duration="7185000" />
       <workItem from="1756045209629" duration="880000" />
-      <workItem from="1756088805042" duration="4184000" />
+      <workItem from="1756088805042" duration="4534000" />
     </task>
     <servers />
   </component>
