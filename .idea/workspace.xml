@@ -5,12 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="72a27f8b-bc09-4d52-90ce-c073df21854d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/controllers/Follow.controllers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/Profile.controllers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/follow.routes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/auth.service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/category.service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/comment.service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/follow.service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/interaction.service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/notification.service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/posts.service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/profile.service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/share.service.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/User.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/User.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/Posts.controllers.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/Posts.controllers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/blogPosts.routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/blogPosts.routes.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +37,9 @@
   &quot;associatedIndex&quot;: 2
 }</component>
   <component name="ProjectId" id="31I4NSU6R3JH8JPZ4pJE1SDbOz5" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -45,7 +54,7 @@
     &quot;Node.js.server.js.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;Huy&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -83,6 +92,8 @@
       <workItem from="1755554501521" duration="2613000" />
       <workItem from="1755745121629" duration="893000" />
       <workItem from="1755830737435" duration="7099000" />
+      <workItem from="1756029569214" duration="7185000" />
+      <workItem from="1756045209629" duration="880000" />
     </task>
     <servers />
   </component>

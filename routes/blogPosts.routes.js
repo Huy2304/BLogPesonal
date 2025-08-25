@@ -7,7 +7,6 @@ import {
   getSinglePost,
   updateSinglePost,
   removeSinglePost,
-  likePost,
 } from "../controllers/Posts.controllers.js";
 
 const router = express.Router();
@@ -26,8 +25,5 @@ router.patch("/:id", updateSinglePost);
 
 // Xóa bài viết theo ID
 router.delete("/:id", removeSinglePost);
-
-// Thích bài viết theo ID
-router.patch("/:id/like", likePost);
 
 export default router;
